@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Study Haven</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Study Haven</a>
+      <ul class="nav-menu">
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="browse.html">Browse</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="contact-container">
+      <div class="contact-intro">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out.</p>
+      </div>
+
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your message" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Inquiry Type</label>
+          <div class="radio-group">
+            <div class="radio-option">
+              <input type="radio" id="general" name="inquiry" value="general" checked>
+              <label for="general">General</label>
+            </div>
+            <div class="radio-option">
+              <input type="radio" id="catering" name="inquiry" value="catering">
+              <label for="catering">Catering</label>
+            </div>
+            <div class="radio-option">
+              <input type="radio" id="events" name="inquiry" value="events">
+              <label for="events">Events</label>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p class="copyright">© 2025 StudyHaven. All rights reserved.</p>
+  </footer>
+</body>
+</html>
