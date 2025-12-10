@@ -23,6 +23,7 @@
        
 
  Insert all your glorious CSS styles below! */
+
  /* Font Face Declarations */
 @font-face {
   font-display: swap;
@@ -53,6 +54,9 @@ body {
   padding: 0;
   background-color: #F5E6D3;
   color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 p {
