@@ -23,14 +23,13 @@
        
 
  Insert all your glorious CSS styles below! */
-
-/* Font Face Declarations */
+ /* Font Face Declarations */
 @font-face {
   font-display: swap;
   font-family: 'Averia Sans Libre';
   font-style: normal;
   font-weight: 400;
-  src: url('assets/fonts/averia-sans-libre-v20-latin-regular.woff2') format('woff2');
+  src: url('fonts/averia-sans-libre-v20-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -38,7 +37,7 @@
   font-family: 'Averia Sans Libre';
   font-style: normal;
   font-weight: 700;
-  src: url('assets/fonts/averia-sans-libre-v20-latin-700.woff2') format('woff2');
+  src: url('fonts/averia-sans-libre-v20-latin-700.woff2') format('woff2');
 }
 
 /* ===== FLUID TYPE SCALE ===== */
@@ -251,6 +250,15 @@ main {
   justify-content: center;
   font-size: 4em;
   color: #999;
+  overflow: hidden;
+}
+
+.image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
 }
 
 .values-section {
@@ -311,6 +319,14 @@ main {
   justify-content: center;
   font-size: 3em;
   color: #999;
+  overflow: hidden;
+}
+
+.place-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .place-info {
@@ -331,6 +347,19 @@ main {
 .contact-intro {
   text-align: center;
   margin-bottom: 2rem;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, rgba(200, 230, 201, 0.8) 0%, rgba(165, 214, 167, 0.8) 100%),
+              url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1200&q=80') center/cover;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-intro h1 {
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.contact-intro p {
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
 }
 
 .contact-form {
