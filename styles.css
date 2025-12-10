@@ -30,7 +30,7 @@
   font-family: 'Averia Sans Libre';
   font-style: normal;
   font-weight: 400;
-  src: url('../assets/fonts/averia-sans-libre-v20-latin-regular.woff2') format('woff2');
+  src: url('fonts/averia-sans-libre-v20-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -38,7 +38,7 @@
   font-family: 'Averia Sans Libre';
   font-style: normal;
   font-weight: 700;
-  src: url('../assets/fonts/averia-sans-libre-v20-latin-700.woff2') format('woff2');
+  src: url('fonts/averia-sans-libre-v20-latin-700.woff2') format('woff2');
 }
 
 /* ===== FLUID TYPE SCALE ===== */
@@ -456,13 +456,29 @@ main {
 .radio-group {
   display: flex; /* FLEXBOX */
   flex-direction: column; /* FLEXBOX */
-  gap: 0.5rem; /* FLEXBOX */
+  gap: 0.75rem; /* FLEXBOX */
 }
 
 .radio-option {
   display: flex; /* FLEXBOX */
   align-items: center; /* FLEXBOX */
-  gap: 0.5rem; /* FLEXBOX */
+  gap: 0.75rem; /* FLEXBOX */
+  justify-content: space-between; /* FLEXBOX */
+}
+
+.radio-option input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.radio-option label {
+  flex: 1;
+  text-align: left;
+  cursor: pointer;
+  margin: 0;
+  font-weight: 400;
 }
 
 .submit-btn {
