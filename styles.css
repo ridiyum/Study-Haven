@@ -268,10 +268,55 @@ main {
 
 .values-section {
   background-color: #FFFFFF;
-  padding: 2rem;
+  padding: 3rem 2rem;
   border-radius: 15px;
   margin-top: 2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.values-section h2 {
+  text-align: center;
+  color: #2C3E2C;
+  margin-bottom: 3rem;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem;
+}
+
+.value-card {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(135deg, #F9FBF9 0%, #FFFFFF 100%);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border: 2px solid #E8E8E8;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-color: #C8E6C9;
+}
+
+.value-icon {
+  font-size: 3em;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.value-card h4 {
+  color: #2C3E2C;
+  margin: 0 0 1rem 0;
+  font-size: 1.4em;
+}
+
+.value-card p {
+  color: #555;
+  margin: 0;
+  line-height: 1.6;
 }
 
 /* Featured Places (Browse Page) - USES FLEXBOX */
