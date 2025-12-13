@@ -24,7 +24,9 @@
 
  Insert all your glorious CSS styles below! */
 
-/* Font Face Declarations */@font-face {
+/* Font Face Declarations */
+
+@font-face {
   font-display: swap;
   font-family: 'Averia Sans Libre';
   font-style: normal;
