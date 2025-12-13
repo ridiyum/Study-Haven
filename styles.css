@@ -24,8 +24,7 @@
 
  Insert all your glorious CSS styles below! */
 
-/* Font Face Declarations */
-@font-face {
+/* Font Face Declarations */@font-face {
   font-display: swap;
   font-family: 'Averia Sans Libre';
   font-style: normal;
@@ -666,6 +665,7 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem;
   margin-top: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .amenity-item {
