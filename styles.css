@@ -85,7 +85,7 @@ a {
   transition: all 0.3s ease;
 }
 
-/* ===== HEADER NAVIGATION ===== */
+/*HEADER NAVIGATION*/
 header {
   background-color: #2C3E2C;
   padding: 1rem 2rem;
@@ -138,7 +138,7 @@ nav {
   color: #2C3E2C;
 }
 
-/* ===== MAIN CONTENT ===== */
+/*MAIN CONTENT*/
 main {
   max-width: 1400px;
   margin: 0 auto;
@@ -147,7 +147,7 @@ main {
   width: 100%;
 }
 
-/* ===== HERO SECTION ===== */
+/*HERO SECTION*/
 .hero {
   background: linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%);
   padding: 4rem 2rem;
@@ -189,7 +189,7 @@ main {
   display: block;
 }
 
-/* ===== FEATURED CATEGORIES ===== */
+/*FEATURED CATEGORIES*/
 .featured-categories {
   padding: 4rem 2rem;
   background-color: #FFFFFF;
@@ -240,7 +240,7 @@ main {
   margin: 0;
 }
 
-/* ===== FEATURES SECTION ===== */
+/*FEATURES SECTION*/
 .features-section {
   padding: 4rem 2rem;
   background-color: #F5E6D3;
@@ -319,7 +319,7 @@ main {
   display: block;
 }
 
-/* ===== CTA SECTION ===== */
+/*CTA SECTION*/
 .cta-section {
   background: linear-gradient(135deg, #2C3E2C 0%, #1a2b1a 100%);
   color: #FFFFFF;
@@ -337,7 +337,7 @@ main {
   margin-bottom: 2rem;
 }
 
-/* ===== BUTTONS ===== */
+/*BUTTONS*/
 .btn {
   display: inline-block;
   padding: 0.75rem 2rem;
@@ -372,7 +372,7 @@ main {
   background-color: #FFFFFF;
 }
 
-/* ===== ABOUT PAGE ===== */
+/*ABOUT PAGE*/
 .about-content {
   display: grid;
   grid-template-columns: 1fr;
@@ -467,7 +467,7 @@ main {
   line-height: 1.6;
 }
 
-/* ===== BROWSE PAGE ===== */
+/*BROWSE PAGE*/
 .filter-section {
   display: flex;
   justify-content: space-between;
@@ -558,7 +558,7 @@ main {
   line-height: 1.5;
 }
 
-/* ===== PLACE DETAIL PAGE ===== */
+/*PLACE DETAIL PAGE*/
 .place-detail {
   padding: 2rem;
 }
@@ -695,7 +695,7 @@ main {
   padding: 1rem;
 }
 
-/* ===== CONTACT PAGE ===== */
+/*CONTACT PAGE*/
 .contact-container {
   max-width: 700px;
   margin: 0 auto;
@@ -813,7 +813,7 @@ main {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* ===== FOOTER ===== */
+/*FOOTER*/
 footer {
   background-color: #2C3E2C;
   color: #FFFFFF;
@@ -870,7 +870,7 @@ footer {
   font-size: 0.95em;
 }
 
-/* ===== RESPONSIVE DESIGN ===== */
+/*RESPONSIVE DESIGN*/
 @media (max-width: 968px) {
   .hero {
     grid-template-columns: 1fr;
