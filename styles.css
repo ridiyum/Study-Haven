@@ -966,7 +966,7 @@ footer {
 .place-meta {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5rem 2rem;
+  gap: 1.5rem 1rem;
   margin-top: 1.5rem;
 }
 
