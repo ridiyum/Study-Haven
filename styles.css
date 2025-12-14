@@ -946,3 +946,30 @@ footer {
     gap: 2rem;
   }
 }
+
+/*QUICK INFO TEXT ALIGNMENT*/
+
+.info-list li {
+  padding: 1rem 0;
+  border-bottom: 1px solid #E0E0E0;
+  display: flex;
+  flex-direction: column; 
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.info-value {
+  color: #555;
+  text-align: left;
+}
+
+.place-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 2rem;
+  margin-top: 1.5rem;
+}
+
+.place-meta .meta-item:first-child {
+  grid-column: 1 / -1;
+}
