@@ -31,7 +31,7 @@
   font-family: 'Averia Sans Libre';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/averia-sans-libre-v20-latin-regular.woff2') format('woff2');
+  src: url('assets/fonts/averia-sans-libre-v20-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -39,7 +39,7 @@
   font-family: 'Averia Sans Libre';
   font-style: normal;
   font-weight: 700;
-  src: url('fonts/averia-sans-libre-v20-latin-700.woff2') format('woff2');
+  src: url('assets/fonts/averia-sans-libre-v20-latin-700.woff2') format('woff2');
 }
 
 /* ===== BASE STYLES ===== */
