@@ -25,7 +25,6 @@
  Insert all your glorious CSS styles below! */
 
 /* Font Face Declarations */
-
 @font-face {
   font-display: swap;
   font-family: 'Averia Sans Libre';
@@ -42,7 +41,7 @@
   src: url('assets/fonts/averia-sans-libre-v20-latin-700.woff2') format('woff2');
 }
 
-/* ===== BASE STYLES ===== */
+/*FLUID TYPE SCALE*/
 html {
   font-size: 16px;
   scroll-behavior: smooth;
@@ -73,11 +72,39 @@ h1, h2, h3, h4, h5 {
   margin-top: 0;
 }
 
-h1 { font-size: 3.05em; }
-h2 { font-size: 2.44em; }
-h3 { font-size: 1.95em; }
-h4 { font-size: 1.56em; }
-h5 { font-size: 1.25em; }
+h1,
+.text-size-h1 { 
+  font-size: 3.05em; 
+}
+
+h2,
+.text-size-h2 { 
+  font-size: 2.44em; 
+}
+
+h3,
+.text-size-h3 { 
+  font-size: 1.95em; 
+}
+
+h4,
+.text-size-h4 { 
+  font-size: 1.56em; 
+}
+
+h5,
+.text-size-h5 { 
+  font-size: 1.25em; 
+}
+
+.text-caption { 
+  font-size: 0.8em; 
+}
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
 
 a {
   text-decoration: none;
