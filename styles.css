@@ -576,6 +576,11 @@ main {
   margin-bottom: 1rem;
 }
 
+.place-description {
+  font-size: 1.1em;
+  color: #555;
+}
+
 .place-rating {
   display: flex;
   align-items: center;
@@ -681,6 +686,13 @@ main {
 
 .amenity-icon {
   font-size: 1.3em;
+}
+
+.back-btn {
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 1rem;
 }
 
 /* ===== CONTACT PAGE ===== */
